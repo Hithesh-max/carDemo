@@ -1,0 +1,58 @@
+[
+  {
+    "page": "home",
+    "url": "index.html",
+    "score": 100,
+    "failed": [],
+    "lighthouseVersion": "13.6.0"
+  },
+  {
+    "page": "catalogue",
+    "url": "cars.html",
+    "score": 100,
+    "failed": [],
+    "lighthouseVersion": "13.6.0"
+  },
+  {
+    "page": "car",
+    "url": "car.html?id=creta",
+    "score": 100,
+    "failed": [],
+    "lighthouseVersion": "13.6.0"
+  },
+  {
+    "page": "create-group",
+    "url": "create-group.html",
+    "score": 100,
+    "failed": [],
+    "lighthouseVersion": "13.6.0"
+  },
+  {
+    "page": "group",
+    "url": "groups.html?id=1",
+    "score": 100,
+    "failed": [],
+    "lighthouseVersion": "13.6.0"
+  },
+  {
+    "page": "bids",
+    "url": "bids.html?id=1",
+    "score": 100,
+    "failed": [],
+    "lighthouseVersion": "13.6.0"
+  },
+  {
+    "page": "showrooms",
+    "url": "dealers.html",
+    "score": 100,
+    "failed": [],
+    "lighthouseVersion": "13.6.0"
+  },
+  {
+    "page": "dealer",
+    "url": "dealer.html",
+    "score": 100,
+    "failed": [],
+    "lighthouseVersion": "13.6.0"
+  }
+]

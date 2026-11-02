@@ -1,0 +1,32 @@
+{
+  "name": "autocollective-india",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web Technology academic project: collective car buying and real-time dealer offers",
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/api.test.js",
+    "test:ui": "playwright test",
+    "audit": "node scripts/audit.js",
+    "format": "prettier --write server.js data.js public/app.js public/styles.css \"public/*.html\" \"test/*.js\" \"scripts/*.js\"",
+    "audit:screenshots": "node scripts/capture-audits.js"
+  },
+  "dependencies": {
+    "bootstrap": "5.3.8",
+    "express": "^5.1.0",
+    "leaflet": "1.9.4",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.11.0",
+    "@playwright/test": "1.56.1",
+    "lighthouse": "^13.0.0",
+    "prettier": "3.6.2",
+    "socket.io-client": "^4.8.1"
+  }
+}
